@@ -8,8 +8,10 @@ public class Sort {
        // System.out.println("bubble sort " + Arrays.toString(array));
        // quickSort(array, 0, array.length - 1);
        // System.out.println("quick sort " + Arrays.toString(array));
-        mergeSort(array);
-        System.out.println("merge sort " + Arrays.toString(array));
+        //mergeSort(array);
+        //System.out.println("merge sort " + Arrays.toString(array));
+        insertionSort(array);
+        System.out.println("insertion sort " + Arrays.toString(array));
     }
 
     public static void bubbleSort(int[] array) {
@@ -128,5 +130,25 @@ public class Sort {
         }
     }
 
+    public static void insertionSort(int[] array) {
+        //first element is already
+        //sorted with itself there's never
+        //anything we need to do with it, so it
+        //makes sense to just start with the
+        //second element in the array which is
+        //going to be at index one
+
+
+        for (int i = 1; i < array.length; i++) {
+            int currentValue = array[i];
+            int stepBackIndex = i - 1;   // this is the index of the element that we're comparing with. It makes sense to name it more clear for code readability
+
+            while (stepBackIndex >= 0 && array[stepBackIndex] > currentValue) {
+                array[stepBackIndex + 1] = array[stepBackIndex];
+                stepBackIndex--;
+            }
+            array[stepBackIndex + 1] = currentValue;
+        }
+    }
 }
 

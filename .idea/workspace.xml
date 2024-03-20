@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc3252b6-e444-40d1-9e38-972eaca52bc7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/cody_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cody_history.xml" afterDir="false" />
+    <list default="true" id="cc3252b6-e444-40d1-9e38-972eaca52bc7" name="Changes" comment="implemented merge sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sort.java" afterDir="false" />
     </list>
@@ -105,12 +104,48 @@
       <updated>1710261510523</updated>
       <workItem from="1710261511685" duration="5754000" />
       <workItem from="1710756771552" duration="2049000" />
-      <workItem from="1710936116021" duration="2110000" />
+      <workItem from="1710936116021" duration="3631000" />
     </task>
+    <task id="LOCAL-00001" summary="implemented merge sort">
+      <option name="closed" value="true" />
+      <created>1710940255852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710940255852</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implemented merge sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented merge sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
