@@ -32,6 +32,21 @@
           </messages>
           <updatedAt value="2024-03-13T14:28:21.06044" />
         </chat>
+        <chat>
+          <accountId value="VXNlcjozMTU3ODI=" />
+          <internalId value="d95c0f84-b819-445e-8f05-b068e94361ca" />
+        </chat>
+        <chat>
+          <accountId value="VXNlcjozMTU3ODI=" />
+          <internalId value="387ce367-828f-48d1-91f8-9b31cee43451" />
+          <llm>
+            <llm>
+              <model value="anthropic/claude-2.0" />
+              <provider value="Anthropic" />
+              <title value="Claude 2.0" />
+            </llm>
+          </llm>
+        </chat>
       </list>
     </chats>
   </component>
